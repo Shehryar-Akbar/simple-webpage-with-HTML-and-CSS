@@ -1,0 +1,291 @@
+body
+{
+	
+	background-color:#70cde2;
+	margin:0px;
+	padding:0px;
+	background-image: url(background1.jpg); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+p label.pic
+{
+	display:block;
+	border:5px;
+	border-left-color:#70cde2;
+	border-top-color:#70cde2;
+	border-right-color:blue;
+	border-bottom-color:blue; 
+}
+label.lable1
+{
+
+	font-family:Segoe UI Black;
+	margin:10px 20px;
+}
+nav
+{
+	font-family:Segoe UI Black;
+	background-color:#0082e6; 
+	height:70px;
+	width:100%;
+}
+label.logo
+{
+	color:#4B0082;
+	font-size:30px;
+	line-height: 70px;
+	font-weight:bold;
+}
+
+label.label2
+{
+	
+	font-family:Segoe UI Black;
+	font-size: 6px;
+}
+
+label.label2 table.table1
+{
+	border:solid 5px;
+	margin-left:12.5%;
+	border-top-color:#70aef4;;
+	border-left-color:#70aef4;
+	border-bottom-color:blue;
+	border-right-color:blue;
+	background-color:powderblue;
+
+}
+label.label2 table.table1 h1
+{
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+
+p.p1
+{
+	margin-left:15%;
+}
+/*-------this is for the othr one----------*/
+p.p2
+{
+	margin-left:6%;
+}
+p.p3
+{
+	margin-right:2%;
+	margin-left:2%;
+}
+p.p4
+{
+	margin-right:2%;
+	margin-left:2%;
+}
+p.p5 label.label3 table.table1 tr td img
+{
+	margin-top:5%;
+}
+p.p5 
+{
+	margin-right:2%;
+	margin-left:2%;
+}
+
+label.label3
+{
+	font-family:Segoe UI Black;
+	font-size: 6px;
+}
+label.label3 table.table1
+{
+	border:solid 5px;
+	margin-left:2%;
+	margin-right:2%;
+	border-top-color:#70aef4;;
+	border-left-color:#70aef4;
+	border-bottom-color:blue;
+	border-right-color:blue;
+	background-color:powderblue;
+
+}
+label.label3 table.table1 tr
+{
+	width:50%;
+}
+label.label3 table.table1 tr td h3
+{
+	margin-top:5%;
+	margin-bottom:0%;
+}
+label.label3 table.table1 tr td img
+{
+	margin-left:5%;
+	margin-bottom:5%;
+	width: 300;
+	height:220;
+}
+
+label.label3 table.table1 h1
+{
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+
+nav ul
+{
+	text-decoration: none;
+	float:right;
+	margin-right:20px;
+}
+
+nav ul li
+{
+	text-decoration: none;
+	display:inline-block;
+	line-height:50px;
+	margin:0px 5px;
+	
+}
+nav ul li a
+{
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	font-size:15px;
+	border-radius:3px;
+	padding:8px 14px;
+	text-transform:uppercase;
+	margin-top:0px;
+	
+}
+nav ul li a:hover
+{
+	background:#2E5090;
+}
+
+form
+{
+	color:white;
+	background-color:blue;
+	background-size:100%;
+	display:inline-block;
+	margin-left:20%;
+	border-radius:10px;
+	opacity:0.8;
+}
+form p
+{
+	margin:1%;
+	padding:0px;
+	text-align: center;
+}
+form textarea
+{
+	margin:0px 0px;
+	margin:0 37%;
+}
+form table
+{
+	color:white;
+}
+button.cls1:hover 
+{
+	background-color: blue;
+}
+button.cls1 
+{
+	text-align: center;
+	font-family: arial;
+	border-radius:2px solid #3498db;
+	margin-left:300px;
+	padding:10px 20px;
+	font-size:15px;
+	font-weight: bold;
+}
+button.cls2:hover 
+{
+	background-color: blue;
+}
+button.cls2 
+{
+	text-align: center;
+	font-family: arial;
+	border-radius:2px solid #3498db;
+	padding:10px 20px;
+	font-size:15px;
+	font-weight: bold;
+}
+/*---this is for the mainframe---*/
+
+label.lable4 label.label5
+{
+	font-size:15px;
+	color:white;
+	font-family:Segoe UI Black;
+	padding:0px 10px 10px 10px;
+	display:block;
+	background-color:blue;
+	margin:15% 15%;
+	opacity: 0.9;
+}
+label.lable1 label.label6
+{
+	font-size:15px;
+	color:white;
+	font-family:Segoe UI Black;
+	padding:0px 10px 10px 10px;
+	display:block;
+	background-color:blue;
+	margin:15% 15%;
+	opacity: 0.9;
+}
+label.lable1 label.label7
+{
+	font-size:15px;
+	color:white;
+	font-family:Segoe UI Black;
+	padding:0px 10px 10px 10px;
+	display:block;
+	background-color:blue;
+	margin:15% 15%;
+	opacity: 0.9;
+}
+label.lable1 label.label8
+{
+	font-size:15px;
+	color:white;
+	font-family:Segoe UI Black;
+	padding:0px 10px 10px 10px;
+	display:block;
+	background-color:blue;
+	margin:15% 15%;
+	opacity: 0.6;
+}
+
+p.p_1
+{
+	font-size:20;
+	color:white;
+	display:block;
+	background-color:blue;
+	opacity:0.5;
+	padding:2% 2% 2% 2%;
+	margin-right: 38%;
+	margin-bottom:45%;
+}
+
+/*========== class for the body ===============*/
+
+body.bdy
+{
+	background-image:url(laptop_2-wallpaper-1366x768.jpg);
+}
+h4.blk
+{
+	background-color:solid blue;
+}
+

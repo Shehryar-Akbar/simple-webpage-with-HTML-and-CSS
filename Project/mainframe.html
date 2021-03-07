@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>mainframe computer</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<label class="lable4">
+        <nav>
+           <label class="logo">COMP WORLD.me</label>
+                <ul class="first">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+        </nav>
+
+        <label class="label5">
+                <br><br>
+            <h2>Mainframe computer</h2>
+            <p>
+            A mainframe computer, informally called a mainframe or big iron,[1] is a computer used primarily by large organizations for critical applications, bulk data processing (such as the census and industry and consumer statistics, enterprise resource planning, and large-scale transaction processing). A mainframe computer is larger and has more processing power than some other classes of computers, such as minicomputers, servers, workstations, and personal computers. Most large-scale computer-system architectures were established in the 1960s, but they continue to evolve. Mainframe computers are often used as servers.</p>
+            <p>
+            The term mainframe derived from the large cabinet, called a main frame,[citation needed] that houses the central processing unit and main memory of early computers.[2][full citation needed][3] Later, the term mainframe was used to distinguish high-end commercial computers from less powerful machines.[4]
+            </p>
+
+            <h3>Design</h3>
+            <p>
+            Modern mainframe design is characterized less by raw computational speed and more by:
+
+            Redundant internal engineering resulting in high reliability and security
+            Extensive input-output ("I/O") facilities with the ability to offload to separate engines
+            Strict backward compatibility with older software
+            High hardware and computational utilization rates through virtualization to support massive throughput.
+            Hot-swapping of hardware, such as processors and memory.
+            Their high stability and reliability enable these machines to run uninterrupted for very long periods of time, with mean time between failures (MTBF) measured in decades.
+            </p>
+            <p>
+            Mainframes have high availability, one of the primary reasons for their longevity, since they are typically used in applications where downtime would be costly or catastrophic. The term reliability, availability and serviceability (RAS) is a defining characteristic of mainframe computers. Proper planning and implementation are required to realize these features. In addition, mainframes are more secure than other computer types: the NIST vulnerabilities database, US-CERT, rates traditional mainframes such as IBM Z (previously called z Systems, System z and zSeries), Unisys Dorado and Unisys Libra as among the most secure with vulnerabilities in the low single digits as compared with thousands for Windows, UNIX, and Linux.[5] Software upgrades usually require setting up the operating system or portions thereof, and are non-disruptive only when using virtualizing facilities such as IBM z/OS and Parallel Sysplex, or Unisys XPCL, which support workload sharing so that one system can take over another's application while it is being refreshed.
+            </p>
+            <p>
+            In the late 1950s, mainframes had only a rudimentary interactive interface (the console) and used sets of punched cards, paper tape, or magnetic tape to transfer data and programs. They operated in batch mode to support back office functions such as payroll and customer billing, most of which were based on repeated tape-based sorting and merging operations followed by line printing to preprinted continuous stationery. When interactive user terminals were introduced, they were used almost exclusively for applications (e.g. airline booking) rather than program development. Typewriter and Teletype devices were common control consoles for system operators through the early 1970s, although ultimately supplanted by keyboard/display devices.
+            </p>
+            <p>
+            By the early 1970s, many mainframes acquired interactive user terminals[NB 1] operating as timesharing computers, supporting hundreds of users simultaneously along with batch processing. Users gained access through keyboard/typewriter terminals and specialized text terminal CRT displays with integral keyboards, or later from personal computers equipped with terminal emulation software. By the 1980s, many mainframes supported graphic display terminals, and terminal emulation, but not graphical user interfaces. This form of end-user computing became obsolete in the 1990s due to the advent of personal computers provided with GUIs. After 2000, modern mainframes partially or entirely phased out classic "green screen" and color display terminal access for end-users in favour of Web-style user interfaces.
+            </p>
+            <p>
+            The infrastructure requirements were drastically reduced during the mid-1990s, when CMOS mainframe designs replaced the older bipolar technology. IBM claimed that its newer mainframes reduced data center energy costs for power and cooling, and reduced physical space requirements compared to server farms.[6]
+            </p>
+
+            <h3>Characteristics</h3>
+            <p>
+            Inside an IBM System z9 mainframe
+            Modern mainframes can run multiple different instances of operating systems at the same time. This technique of virtual machines allows applications to run as if they were on physically distinct computers. In this role, a single mainframe can replace higher-functioning hardware services available to conventional servers. While mainframes pioneered this capability, virtualization is now available on most families of computer systems, though not always to the same degree or level of sophistication.[7]
+            <p>
+            Mainframes can add or hot swap system capacity without disrupting system function, with specificity and granularity to a level of sophistication not usually available with most server solutions.[citation needed] Modern mainframes, notably the IBM zSeries, System z9 and System z10 servers, offer two levels of virtualization: logical partitions (LPARs, via the PR/SM facility) and virtual machines (via the z/VM operating system). Many mainframe customers run two machines: one in their primary data center and one in their backup data center—fully active, partially active, or on standby—in case there is a catastrophe affecting the first building. Test, development, training, and production workload for applications and databases can run on a single machine, except for extremely large demands where the capacity of one machine might be limiting. Such a two-mainframe installation can support continuous business service, avoiding both planned and unplanned outages. In practice many customers use multiple mainframes linked either by Parallel Sysplex and shared DASD (in IBM's case),[citation needed] or with shared, geographically dispersed storage provided by EMC or Hitachi.
+            </p>
+            <p>
+            Mainframes are designed to handle very high volume input and output (I/O) and emphasize throughput computing. Since the late 1950s,[NB 2] mainframe designs have included subsidiary hardware[NB 3] (called channels or peripheral processors) which manage the I/O devices, leaving the CPU free to deal only with high-speed memory. It is common in mainframe shops to deal with massive databases and files. Gigabyte to terabyte-size record files are not unusual.[8] Compared to a typical PC, mainframes commonly have hundreds to thousands of times as much data storage online,[9] and can access it reasonably quickly. Other server families also offload I/O processing and emphasize throughput computing.
+            </p>
+            <p>
+            Mainframe return on investment (ROI), like any other computing platform, is dependent on its ability to scale, support mixed workloads, reduce labor costs, deliver uninterrupted service for critical business applications, and several other risk-adjusted cost factors.
+
+            Mainframes also have execution integrity characteristics for fault tolerant computing. For example, z900, z990, System z9, and System z10 servers effectively execute result-oriented instructions twice, compare results, arbitrate between any differences (through instruction retry and failure isolation), then shift workloads "in flight" to functioning processors, including spares, without any impact to operating systems, applications, or users. This hardware-level feature, also found in HP's NonStop systems, is known as lock-stepping, because both processors take their "steps" (i.e. instructions) together. Not all applications absolutely need the assured integrity that these systems provide, but many do, such as financial transaction processing.
+            </p>
+        </label>
+</label>
+</body>
+</html>
